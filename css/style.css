@@ -378,3 +378,32 @@ td {
   line-height: 24px;
   margin-bottom: 32px;
 }
+
+/* footer-section */
+footer {
+  background-color: #ffffff;
+}
+.footer-content {
+  padding: 50px 0;
+}
+.footer-content .footer-title {
+  color: var(--near-black);
+  font-size: var(--font-32);
+  font-weight: var(--fw-bold);
+  line-height: auto;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.footer-content .icons-group {
+  justify-content: center;
+  gap: 23px;
+  margin-top: 32px;
+}
+.icons-group img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.footer-content .bar {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
