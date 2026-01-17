@@ -1,0 +1,70 @@
+/* google font */
+.fira-sans-font {
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* reset style */
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* shard style */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+:root {
+  /* colors */
+  --light-blue: #c6e4d6;
+  --near-black: #0e0e0e;
+  --light-dark-30: rgba(14, 14, 14, 0.3);
+  --light-dark-50: rgba(14, 14, 14, 0.5);
+  --light-dark-60: rgba(14, 14, 14, 0.6);
+  --light-dark-70: rgba(14, 14, 14, 0.7);
+  --light-dark-80: rgba(14, 14, 14, 0.8);
+
+  /* font-size */
+  --font-16: 1rem;
+  --font-18: 1.08rem;
+  --font-20: 1.2rem;
+  --font-32: 1.92rem;
+  --font-40: 2.4rem;
+
+  /* font-weight */
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-regular: 400;
+}
+.d-flex {
+  display: flex;
+}
+
+/* header-section */
+.navbar {
+  padding: 31px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-brand {
+  font-weight: var(--fw-bold);
+  font-size: var(--font-32);
+  color: var(--near-black);
+  line-height: auto;
+}
+.navbar .navbar-btn {
+  padding: 15px 30px;
+  border: 1px solid #006a50;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #006a50;
+  font-size: var(--font-18);
+  font-weight: var(--fw-semibold);
+  line-height: auto;
+  cursor: pointer;
+}
