@@ -14,6 +14,13 @@
   .future .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .satellite-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .all-satellite .alternate {
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 576px) {
   .pillars .card-container {
@@ -21,6 +28,9 @@
   }
   .future .card-container {
     grid-template-columns: 1fr;
+  }
+  .satellite-content-img img {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 414px) {
