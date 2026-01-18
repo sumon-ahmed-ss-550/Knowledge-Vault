@@ -21,6 +21,25 @@
   .all-satellite .alternate {
     flex-direction: column;
   }
+  .donate .form-content {
+    display: flex;
+  }
+  .donate .form-card {
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .donate .form-card {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .donate .form-card {
+    padding: 10px;
+  }
+  .donate .form-content {
+    gap: 10px;
+  }
 }
 @media only screen and (max-width: 576px) {
   .pillars .card-container {
@@ -31,6 +50,9 @@
   }
   .satellite-content-img img {
     width: 100%;
+  }
+  .donate h2 {
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -63,5 +85,8 @@
   .navbar {
     flex-direction: column;
     gap: 30px;
+  }
+  .donate h2 {
+    font-size: 1rem;
   }
 }
