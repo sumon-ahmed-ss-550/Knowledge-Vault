@@ -229,6 +229,9 @@ body {
   background-color: #ffffff;
   border-radius: 16px;
   padding: 48px 24px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 24px 24px;
 }
 .advisor .lecture {
   color: var(--light-dark-80);
