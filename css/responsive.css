@@ -33,6 +33,14 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 450px) {
+  .subscribe input[type="search"] {
+    padding: 17px 20px;
+  }
+  .subscribe input[type="submit"] {
+    padding: 17px 20px;
+  }
+}
 @media only screen and (max-width: 414px) {
   .matter table,
   th {
@@ -41,6 +49,14 @@
   .matter table,
   td {
     padding: 6px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .subscribe input[type="search"] {
+    padding: 17px 8px;
+  }
+  .subscribe input[type="submit"] {
+    padding: 17px 8px;
   }
 }
 @media only screen and (max-width: 360px) {
